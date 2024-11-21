@@ -1,0 +1,35 @@
+PROGRAM:
+
+cle;
+
+clear all;
+
+close all;
+
+N=input('enter the order of filter');
+
+wc * 2 = (3pi) / 4 ;
+
+a = (N - 1) / 2 n = 1 / N
+
+wcl=(pi/4); if((n - 1) = a) h * d(n) =(wc2-wcl)/pi; else hd(n)=(sin(w/2^ * (n-1-a))-sin(w/l^ * (n - l - a) ))/(pi^ * (n-l-a)) * end; w(n)=0.5+(0.5^ bullet cos(2^ bullet pi^ bullet (n - 1 - a) / (N - 1) ));
+
+end
+
+h=w.^ * hd ;
+
+a = (0/0.01) / pi
+
+b=freqz(h,1,a);
+
+mag=20^ * log(abs(b)) ;
+
+plot(a/pi,mag);
+
+grid;
+
+xlabel('normalized frequency\omega^pi');
+
+ylabel('magnitude in db');
+
+title('bandpass filter');
